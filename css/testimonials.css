@@ -1,0 +1,162 @@
+.testimonials {
+    width: 100%;
+    min-height: 180vh;
+    background-color: #F8F4E0;
+    padding: 7vw 2vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;overflow-x: hidden;
+}
+
+.testscontainer {
+    width: 100%;
+
+    ;
+    /* background-color: red; */
+    display: flex;
+    gap: 1em;
+    padding: 1vw 1vw;
+
+}
+
+.headof-testmonial {
+    font-size: 45px;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;color: #3d2101;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tests {
+    flex: 1;
+    /* background-color: rgb(255, 17, 255); */
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 7em;
+}
+
+.pm img {
+    width: 349px;
+    height: 345px;
+}
+
+.pm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.papper1 {
+    width: 315px;
+}
+
+.papper2 {
+    width: 280px;
+    float: right;
+    margin-left: 5em;
+}
+
+.papper3 {
+    width: 270px;
+    float: right;
+}
+
+.papper4 {
+    width: 260px;
+    margin-left: 3em;
+}
+
+.papper1,
+.papper2,
+.papper3,
+.papper4 {
+    position: relative;user-select: none;
+}
+
+.textpapper {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    font-family: inter;
+    flex-direction: column;
+    gap: 2.4em;
+    font-weight: 900;
+    padding: 1vw 1vw;
+}
+
+.rotate {
+    transform: translate(-4px, -7px) rotate(-9deg);
+
+}
+
+
+@media (max-width:1200px) {
+    .testscontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .papper1,
+    .papper2,
+    .papper3,
+    .papper4 {
+        width: 90%;
+    }
+
+    .headof-testmonial {
+        font-size: 35px;
+    }
+
+    .testimonials {
+        gap: 3em;
+    }
+
+    .textpapper {
+        font-size: 1.3em;
+    }
+    .extramonial {
+        width: 90%;left: 15%;
+    }
+}
+
+@media (max-width:768px) {
+    .headof-testmonial {
+        font-size: 17px;
+    }
+
+    .textpapper {
+        font-size: 1em;
+    }
+
+    .pm img {
+        width: 100%;
+    }
+
+    .papper2,
+    .papper4 {
+        margin-left: 0em;
+    }
+}
+
+
+
+
+
+
+
+
+
+.extramonial{
+    opacity: 1;
+    transform: rotate(6deg);
+    user-select: none;
+    touch-action: none;height: 339px;
+    width: 335px;
+      
+    left: 30%;
+}
+

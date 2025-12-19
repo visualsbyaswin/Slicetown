@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Slicetown -Restaurent Website </title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/slicetown.css">
+    <link rel="stylesheet" href="css/page2.css">
+    <link rel="stylesheet" href="css/page3.css">
+    <link rel="stylesheet" href="css/page4.css">
+    <link rel="stylesheet" href="css/page5.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/bookings.css">
+    <link rel="stylesheet" href="css/testimonials.css">
+    <link rel="stylesheet" href="css/location.css">
+    <script src="https://unpkg.com/@studio-freight/lenis/dist/lenis.min.js"></script>
+
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navsec1">
+                <div class="activehome"><a href="#home">Home</a></div>
+                <div class="navbutton"><a href="#about">about us</a></div>
+            </div>
+            <div class="navsec2">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="navsec3">
+                <div class="navbutton">
+                    <a href="#menu">Menu</a>
+                </div>
+                <div class="navbutton">
+                    <a href="#reservation">reservation</a>
+                </div>
+            </div>
+        </nav>
+        <div class="medianav">
+            <div class="medianavimg"><img src="images/logo.svg" alt=""></div>
+            <div class="hamburger menu-btn-opn">
+                <div class="fburger"></div>
+                <div class="sburger"></div>
+            </div>
+        </div>
+
+        <div class="menu-overlay">
+            <div class="menu-first">
+                <div class="overlaybuttons b1">
+                    <a href="#home">Home</a>
+                </div>
+                <div class="overlaybuttons b2">
+                    <a href="#about">About</a>
+                </div>
+                <div class="overlaybuttons b3">
+                    <a href="#menu">Menu</a>
+                </div>
+                <div class="overlaybuttons b4">
+                    <a href="#reservation">Reservation</a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="ordernow">
+            <div class="button">Order Now <div class="round "><span class="wrong"></span><span class="wrong1"></span>
+                </div>
+            </div>
+        </section>
+        <section class="popup-message close-btn">
+            <div class="row-popup">
+                <div class="pop1">
+                    <img class="widimgsmall" src="images/maps.svg" alt="">
+                    <p>walk in</p>
+                </div>
+                <div class="pop2">
+                    <img class="widimgbig" src="images//eatuber.svg" alt="">
+                </div>
+                <div class="pop3">
+                    <img class="widimgsmall"  src="images/bell.svg" alt="">
+                    <p>menu</p>
+                </div>
+            </div>
+            <div class="col-popup">
+                <button>book a table</button>
+            </div>
+        </section>
+
+        <section class="page1 " id="home">
+<div class="zoom">
+                <div class="piza">
+                <div class="heroimg">
+                    <img src="images/pizaanimator.avif" alt="">
+                </div>
+                <div class="scroll-animator">
+                    <img src="images/piza.avif" alt="">
+                </div>
+
+            </div>
+            <div class="absouluteheroimg1">
+                <img src="images/tomato.avif" alt="">
+            </div>
+            <div class="absouluteheroimg2">
+                <img src="images/greenleaf.avif" alt="">
+            </div>
+            <div class="text-scroll-on">
+                <div class="text-scroll-1">
+                    <h1 class="msg">Bite it. Love it. Repeat Without Any Pause</h1>
+                </div>
+                <div class="text-scroll-1">
+                    <h1 class="msg">Bite it. Love it. Repeat Without Any Pause</h1>
+                </div>
+            </div>
+</div>
+
+        </section>
+
+        <section class="decoration1">
+
+
+        </section>
+
+        <section class="page2 " id="about">
+            <div class="about">
+                <div class="an1">
+                    <img src="images/manga.avif" alt="">
+                </div>
+                <div class="box-model">
+                    <h2 class="grid-item ">Where Every Perfect Slice Tells a Story</h2>
+                    <p class="grid-item ">Our ingredients are fresh, our ovens are hot, and our team is fired up to
+                        serve you the best pies
+                        in town. From classic Margheritas to loaded flavor bombs, every pizza is made with intention,
+                        fun, and a little pizza magic. We believe pizza is more than food, it’s a celebration.</p>
+                    <button>Order on- <img src="images/lbuttnogo.svg" alt=""></button>
+
+
+
+                </div>
+                <div class="an2">
+                    <img src="images/smalltomato.avif" alt="">
+                </div>
+            </div>
+            <div class="slider-section">
+                <div class="slider-track" id="sliderTrack">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="page3 " id="menu">
+            <div class="piza-lover-h1">
+                <h1 class="fade-in">Pizza Lovers Choice</h1>
+            </div>
+            <div class="menumain">
+                <div class="menu1 ">
+                    <div class="menu-container fade-in">
+                        <div class="menu-header">
+                            <div class="menu-title">
+                                <div class="veg-icon"></div>
+                                <h1>Veg Pizzas</h1>
+                            </div>
+                            <div class="size-labels">
+                                <span>Regular</span>
+                                <span>Large</span>
+                            </div>
+                        </div>
+
+                        <div id="pizzaMenu"></div>
+                    </div>
+
+                    <div class="menu-container grid-item">
+                        <div class="menu-header">
+                            <div class="menu-title">
+                                <h1>Add ones</h1>
+                            </div>
+                            <div class="size-labels">
+                                <span>price</span>
+                            </div>
+                        </div>
+
+                        <div id="addones"></div>
+                    </div>
+
+                </div>
+                <div class="menu2">
+                    <div class="menu-container grid-item">
+                        <div class="menu-header">
+                            <div class="menu-title">
+                                <div class="nonveg-icon"></div>
+                                <h1>Non-Veg Pizzas</h1>
+                            </div>
+                            <div class="size-labels">
+                                <span>Regular</span>
+                                <span>Large</span>
+                            </div>
+                        </div>
+
+                        <div id="nonveg"></div>
+                    </div>
+
+                    <div class="menu-container grid-item">
+                        <div class="menu-header">
+                            <div class="menu-title">
+                                <h1>Desserts</h1>
+                            </div>
+                            <div class="size-labels">
+                                <span>price</span>
+                            </div>
+                        </div>
+
+                        <div id="deserts"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="decoration2">
+
+        </section>
+
+        <section class="page4">
+            <div class="food-items-main">
+                <div class="foof-title ">
+                    <h1 class="headingtext">Delicious Top Picks From Our Oven</h1>
+                </div>
+                <div class="fooditems">
+                    <div class="foods stagger-item">
+
+                        <img src="images/sale1.avif" alt="">
+                        <div class="text-food">
+                            <div class="headofp">
+                                <p>Spicy peri peri paneer</p>
+                            </div>
+                            <div class="price-food">
+                                <div class="fr">
+                                    <p>R</p>
+                                    <p>-</p>
+                                    <p>$</p>
+                                    <p>8</p>
+                                </div>
+                                <div class="pr">
+
+                                </div>
+                                <div class="fr">
+                                    <p>R</p>
+                                    <p>-</p>
+                                    <p>$</p>
+                                    <p>8</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="foods stagger-item">
+
+                        <img src="images/sale2.avif" alt="">
+                        <div class="text-food">
+                            <div class="headofp">
+                                <p>Farmhouse Supreme</p>
+                            </div>
+                            <div class="price-food">
+                                <div class="fr">
+                                    <p>R</p>
+                                    <p>-</p>
+                                    <p>$</p>
+                                    <p>10</p>
+                                </div>
+                                <div class="pr">
+
+                                </div>
+                                <div class="fr">
+                                    <p>L</p>
+                                    <p>-</p>
+                                    <p>$</p>
+                                    <p>12</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="foods stagger-item">
+
+                        <img src="images/pizzap.avif" alt="">
+                        <div class="text-food">
+                            <div class="headofp">
+                                <p>Triple Cheese oveload</p>
+                            </div>
+                            <div class="price-food">
+                                <div class="fr">
+                                    <p>R</p>
+                                    <p>-</p>
+                                    <p>$</p>
+                                    <p>8</p>
+                                </div>
+                                <div class="pr">
+
+                                </div>
+                                <div class="fr">
+                                    <p>R</p>
+                                    <p>-</p>
+                                    <p>$</p>
+                                    <p>8</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="foods stagger-item">
+
+                        <img src="images/piizasec.avif" alt="">
+                        <div class="text-food">
+                            <div class="headofp">
+                                <p>Bbq Chicken blaze</p>
+                            </div>
+                            <div class="price-food">
+                                <div class="fr">
+                                    <p>R</p>
+                                    <p>-</p>
+                                    <p>$</p>
+                                    <p>8</p>
+                                </div>
+                                <div class="pr">
+
+                                </div>
+                                <div class="fr">
+                                    <p>R</p>
+                                    <p>-</p>
+                                    <p>$</p>
+                                    <p>8</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            </div>
+        </section>
+        <section class="slider-offers">
+            <div class="slider-header">
+                <h1 class="slider-title">Hot Deals</h1>
+                <div class="slider-controls">
+                    <button class="nav-btn nav-btn--prev" aria-label="Previous slide">‹</button>
+                    <button class="nav-btn nav-btn--next" aria-label="Next slide">›</button>
+                </div>
+            </div>
+            <div class="slider-container">
+                <div class="slider" id="offersSlider">
+                    <div class="slide">
+                        <div class="deal-card">
+                            <img src="images/offer2.avif" alt="Special offer 2" loading="lazy">
+                        </div>
+                        <div class="deal-card">
+                            <img src="images/offer1.avif" alt="Special offer 1" loading="lazy">
+                        </div>
+                        <div class="deal-card">
+                            <img src="images/offer3.avif" alt="Special offer 3" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="deal-card">
+                            <img src="images/offer2.avif" alt="Special offer 2" loading="lazy">
+                        </div>
+                        <div class="deal-card">
+                            <img src="images/offer1.avif" alt="Special offer 1" loading="lazy">
+                        </div>
+                        <div class="deal-card">
+                            <img src="images/offer3.avif" alt="Special offer 3" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="deal-card">
+                            <img src="images/offer2.avif" alt="Special offer 2" loading="lazy">
+                        </div>
+                        <div class="deal-card">
+                            <img src="images/offer1.avif" alt="Special offer 1" loading="lazy">
+                        </div>
+                        <div class="deal-card">
+                            <img src="images/offer3.avif" alt="Special offer 3" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bookings " id="reservation">
+            <div class="sliding-section">
+                <div class="grid-slide">
+                    <img src="images/pi1.avif" class="pic pic1">
+
+                    <img src="images/pi2.avif" class="pic pic1">
+
+                    <img src="images/pi3.avif" class="pic pic1">
+
+                    <img src="images/pi4.avif" class="pic pic1">
+
+                    <img src="images/pi5.avif" class="pic pic1">
+
+                    <img src="images/pi1.avif" class="pic pic1">
+                </div>
+                <div class="grid-slide">
+                    <img src="images/pic1.jpg" class="pic pic1">
+
+                    <img src="images/pic2.jpg" class="pic pic1">
+
+                    <img src="images/pic3.jpg" class="pic pic1">
+
+                    <img src="images/pic4.jpg" class="pic pic1">
+
+                    <img src="images/pic5.jpg" class="pic pic1">
+
+                    <img src="images/pic6.jpg" class="pic pic1">
+                </div>
+                < <div class="grid-slide">
+                    <img src="images/pic7.jpg" class="pic pic1">
+
+                    <img src="images/pic8.jpg" class="pic pic1">
+
+                    <img src="images/pic10.jpg" class="pic pic1">
+
+                    <img src="images/pic11.jpg" class="pic pic1">
+
+                    <img src="images/pic12.avif" class="pic pic1">
+
+                    <img src="images/pic7.avif" class="pic pic1">
+            </div>
+            <div class="grid-slide">
+                <img src="images/saved1.jpg" class="pic pic1">
+
+                <img src="images/saved2.png" class="pic pic1">
+
+                <img src="images/saved3.jpg" class="pic pic1">
+
+                <img src="images/saved4.jpg" class="pic pic1">
+
+                <img src="images/saved5.jpg" class="pic pic1">
+
+                <img src="images/saved6.jpg" class="pic pic1">
+            </div>
+
+            </div>
+            <div class="form-container">
+                <form id="" class="reservationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Full Name*</label>
+                            <input type="text" placeholder="John Smith" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone number*</label>
+                            <input type="tel" placeholder="(310) 555-1234" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email address*</label>
+                            <input type="email" placeholder="john.smith@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Number of guests*</label>
+                            <input type="text" placeholder="4 guests" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Date*</label>
+                            <input type="date" value="2025-05-11" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Time*</label>
+                            <input type="time" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group full">
+                        <label>Special requests</label>
+                        <textarea placeholder="Window seat with birthday decoration"></textarea>
+                    </div>
+
+                    <button type="submit" class="reserve-btn">Reserve Now</button>
+                </form>
+            </div>
+
+        </section>
+        <section class="decoration1">
+
+
+        </section>
+        <section class="testimonials">
+            <div class="headof-testmonial">
+                <h1 class="fade-in">Truly Loved by People Like You
+
+
+
+
+
+
+
+
+                </h1>
+            </div>
+            <div class="testscontainer">
+                <div class="tests tim">
+                    <div class="papper1 slide-in-left">
+                        <img src="images/papperyellow.avif" alt="">
+
+                        <div class="textpapper">
+                            <p>I'm not usually a dessert person, but that Nutella pizza changed my life. Unreal!</p>
+                            <p>Sneha T., New york</p>
+                        </div>
+                    </div>
+                    <div class="papper2 ">
+                        <img src="images/papper lightpink.avif" alt="">
+                        <div class="textpapper">
+                            <p>The best crust in town — crispy on the outside, soft inside. I dream about their
+                                Paneer Tandoori pizza!p>
+                            <p>Mark,Vemount Moscow</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tests pm"><img src="images/papperimg.avif" alt="">
+                    <div class="extramonial fade-in">
+                        <img src="images/pi3.avif" alt="">
+                    </div>
+                </div>
+                <div class="tests tim">
+                    <div class="papper3 slide-in-left">
+                        <img src="images/pappergeen.avif" alt="">
+                        <div class="textpapper rotate">
+                            <p>"Fast delivery, super fresh, and piping hot! Their combo meal is a weekend ritual for
+                                me."</p>
+                            <p>Billy vaccez, California</p>
+                        </div>
+                    </div>
+                    <div class="papper4 slide-in-right">
+                        <img src="images/papperblue.avif" alt="">
+                        <div class="textpapper">
+                            <p>Tried the BBQ Chicken Blaze and now I can’t go back to regular pizza. It’s
+                                dangerously good.</p>
+                            <p>Amanda Read, Tokyo</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+        <section class="decoration2">
+
+        </section>
+
+        <section class="location">
+            <div class="sliderof-location fade-in">
+                <div class="location-marque">
+                    <div class="location-track">
+                        <img src="svg/pizzacut.svg" alt="">
+                        <p>Flat 20% Off on First Online Order!</p>
+                    </div>
+                    <div class="location-track">
+                        <img src="svg/pizzacut.svg" alt="">
+                        <p>Flat 20% Off on First Online Order!</p>
+                    </div>
+
+                    <div class="location-track">
+                        <img src="svg/pizzacut.svg" alt="">
+                        <p>Flat 20% Off on First Online Order!</p>
+                    </div>
+                    <div class="location-track">
+                        <img src="svg/pizzacut.svg" alt="">
+                        <p> Weekend Combo – 2 Large Pizzas @ $25! </p>
+                    </div>
+
+                    <div class="location-track">
+                        <img src="svg/pizzacut.svg" alt="">
+                        <p>Buy 1 Get 1 Free Every Wednesday!</p>
+                    </div>
+                    <div class="location-track">
+                        <img src="svg/pizzacut.svg" alt="">
+                        <p>Free Garlic Bread with Large Pizza!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="location-img">
+                <img src="images/overlay.avif" alt="">
+            </div>
+            <div class="location-contents">
+                <div class="location-h2">
+                    <h2>Where To Find Us</h2>
+                </div>
+                <div class="location-grid">
+                    <div class="grids grid-item">
+                        <div class="gridh2">
+                            <h2>Downtown’s Pizza Spot</h2>
+                        </div>
+                        <div class="gridcollection">
+                            <div class="collection">
+                                <img src="svg/map.svg" alt="">
+                                <p>7428 Sunset Blvd, Los Angeles, CA 90028</p>
+
+                            </div>
+                            <div class="collection">
+                                <img src="svg/call.svg" alt="">
+                                <p>(213) 555-1299</p>
+
+                            </div>
+                            <div class="collection">
+                                <img src="svg/clock.svg" alt="">
+                                <p>Mon – Sun: 11:00 AM – 10:30 PM
+
+                                </p>
+
+                            </div>
+
+                            <div class="map-button">
+                                <button>View Map</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grids grid-item">
+                        <div class="gridh2">
+                            <h2>Beachside Buns & Bites</h2>
+                        </div>
+                        <div class="collection">
+                            <img src="svg/map.svg" alt="">
+                            <p>1501 Ocean Front Walk, Venice, CA 90291</p>
+
+                        </div>
+                        <div class="collection">
+                            <img src="svg/call.svg" alt="">
+                            <p>(310) 555-7890</p>
+
+                        </div>
+                        <div class="collection">
+                            <img src="svg/clock.svg" alt="">
+                            <p>
+                                Mon – Sun: 12:00 PM – 11:00 PM
+
+                            </p>
+
+                        </div>
+
+                        <div class="map-button">
+                            <button>View Map</button>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-item">
+                        <div class="gridh2">
+                            <h2>Order Your Fresh Pizza Now</h2>
+                        </div>
+                        <div class="ngridh">
+
+                            <p>Craving pizza? Order in seconds for pickup or delivery.
+
+                            </p>
+
+                        </div>
+                        <div class="map-button">
+                            <button>Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </section>
+        <section class="page5">
+            <div class="videosofpage5">
+                <div class="frame">
+                    <div class="f1 stagger-item"><img src="images/page5first.avif" alt=""></div>
+                    <div class="f1 stagger-item"><video autoplay muted loop>
+                            <source src="videos/v3.mp4">
+                        </video></div>
+                </div>
+                <div class="framecenter">
+                    <div class="f2 stagger-item">
+                        <div class="logof2">
+                            <img src="images/inst.avif" alt="">
+                        </div>
+                        <div class="txtf2">
+                            <p>Follow the fun @Slicetown
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="frameend">
+                    <div class="f1">
+                        <div class="f1 stagger-item"><video autoplay muted loop>
+                                <source src="videos/v1.mp4">
+                            </video></div>
+                    </div>
+                    <div class="f1 stagger-item">
+                        <div class="f1"><video autoplay muted loop>
+                                <source src="videos/v2.mp4">
+                            </video></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="decoration1">
+
+
+        </section>
+
+        <footer>
+            <div class="marqueeslider">
+                <div class="marque-track" id="marque-track">
+                    <div class="ubers">
+                        <div class="my-text">
+                            Order on -
+
+                        </div>
+                        <div class="my-img">
+                            <img src="images/lbuttnogo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="ubers">
+                        <div class="my-text">
+                            Order on -
+
+                        </div>
+                        <div class="my-img">
+                            <img src="images/lbuttnogo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="ubers">
+                        <div class="my-text">
+                            Order on -
+
+                        </div>
+                        <div class="my-img">
+                            <img src="images/lbuttnogo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="ubers">
+                        <div class="my-text">
+                            Order on -
+
+                        </div>
+                        <div class="my-img">
+                            <img src="images/lbuttnogo.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="ubers">
+                        <div class="my-text">
+                            Order on -
+
+                        </div>
+                        <div class="my-img">
+                            <img src="images/lbuttnogo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="ubers">
+                        <div class="my-text">
+                            Order on -
+
+                        </div>
+                        <div class="my-img">
+                            <img src="images/lbuttnogo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="ubers">
+                        <div class="my-text">
+                            Order on -
+
+                        </div>
+                        <div class="my-img">
+                            <img src="images/lbuttnogo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="ubers">
+                        <div class="my-text">
+                            Order on -
+
+                        </div>
+                        <div class="my-img">
+                            <img src="images/lbuttnogo.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="dots"></div>
+            </div>
+            <div class="footer-contents">
+                <div class="footer-first-sections">
+                    <div class="footer-img grid-item">
+                        <img src="images/logo.svg" alt="">
+                    </div>
+                    <div class="footer-h2 grid-item">
+                        <h2>Ready to Grab a Slice of Happiness?</h2>
+                    </div>
+                    <div class="footer-buttons grid-item">
+                        <div class="kappi-button"><button>Reserve a Table</button></div>
+                        <div class="vella-button"><button>View Menu</button></div>
+                    </div>
+                    <div class="footer-social grid-item">
+                        <a href="" class="footer-apps">
+                            <img src="images/fb.png" alt="">
+                            <p>Facebook</p>
+                        </a>
+                        <a href="" class="footer-apps">
+                            <img src="images/inst.avif" alt="">
+                            <p>Instagram</p>
+                        </a>
+                        <a href="" class="footer-apps">
+                            <img src="images/tic.avif" alt="">
+                            <p>Tiktok</p>
+                        </a>
+                        <a href="" class="footer-apps">
+                            <img src="images/x.png" alt="">
+                            <p>Twiter/X</p>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="footer-last-contents grid-item">
+                    <div class="varaoffooter"></div>
+
+
+                    <div class="footerend-text ">
+                        <p>Designed by <span>Webestica</span>, Powered by <span>Framer</span></p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+        <section class="bgof-footer">
+
+        </section>
+    </main>
+
+
+
+
+
+    <script src="javascript/menu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="javascript/slider.js"></script>
+    <script src="javascript/slicetown.js"></script>
+    <script src="javascript/lenis.js"></script>
+    <script src="javascript/gsap.js"></script>
+</body>
+
+</html>

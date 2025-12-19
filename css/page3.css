@@ -1,0 +1,236 @@
+.page3 {
+    width: 100%;
+display: flex;
+flex-direction: column;gap: 3em;
+    min-height: 150vh;
+    padding: 100px;
+    position: relative;
+
+    background: #3d2101;
+
+}
+.piza-lover-h1{
+    font-size: 2.1em;color: #faba37;
+    font-style: normal;
+    font-variation-settings:  normal;
+    font-weight: 400;padding: 2vw 1.4vw;
+    letter-spacing: 0em;
+    line-height: 1.2em;margin: 3px;
+}
+.menumain{
+        display: flex;    gap: 1.3em;
+}
+.menu1 {
+    flex: 1;
+    /* background: #42d614; */
+}
+
+.menu2 {
+    flex: 1;
+    /* background: #1973e9; */
+}
+
+.menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2em;
+    flex-direction: column;
+    display: flex
+;
+    padding: 0px 12px;
+
+}
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 0.6vw 2vw;border-radius: 4px;
+   background-color: #51381b;
+
+    width: 100%;
+    height: min-content;
+
+    display: flex
+;
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.veg-icon {
+    width: 20px;
+    height: 20px;
+    background: #25DB01;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.nonveg-icon {
+    width: 20px;
+    height: 20px;
+    background: #db0101;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.menu-title h1 {
+    color: #fff;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.size-labels {
+    display: flex;
+    gap: 25px;
+}
+
+.size-labels span {
+    color: #fff;    font-family: inter;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 70px;
+    text-align: right;
+}
+
+.pizza-item {
+    padding: 25px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    transition: transform 0.2s;font-family: inter;
+}
+
+.pizza-item:hover {
+    transform: translateX(5px);
+}
+
+.pizza-item:last-child {
+    border-bottom: none;
+}
+
+.pizza-header {
+    display: flex;font-family: inter;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.pizza-name {
+    color: #fff;
+    font-size: 18px;font-family: inter;
+    font-weight: 500;
+}
+
+.pizza-prices {
+    display: flex;
+    gap: 25px;font-family: inter;
+}
+
+.price {
+    color: #fab037;
+    font-size: 16px;font-family: inter;
+    font-weight: 700;
+    min-width: 70px;
+    text-align: right;
+}
+
+.pizza-description {
+    color: #d4c4b0;font-family: inter;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 700px;
+}
+
+@media (max-width: 1200px){
+    .menumain{
+    
+        flex-direction: column;align-items: flex-start;
+    }
+    .page3{
+            padding: 10px;
+    }
+    .menu-container{
+        width: 100%;
+    }
+    .menu1,.menu2{
+        width: 100%;
+    }#nonveg,#addones,#pizzaMenu,#deserts{
+display: flex;
+flex-direction: column;
+
+}    .pizza-item{
+                padding: 2vw 2vw;
+
+    }
+    .piza-lover-h1{
+        font-size: 1.3em;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+.menu-header {
+
+    padding: 0.2vw 4vw;}
+   .piza-lover-h1{
+        font-size: 1.1em;line-height: 2.2em;
+    }
+    .nonveg-icon ,.veg-icon{
+    width: 15px;
+    height: 15px;}
+
+    .menu-title h1 {
+        font-size: 18px;
+    }
+
+    .size-labels span {
+        font-size: 14px;
+        min-width: 60px;
+    }
+
+    .pizza-name {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 14px;
+        min-width: 60px;
+    }
+
+    .pizza-description {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+ .pizza-prices {
+        align-self: flex-end;
+    }
+
+       /*  .menu-title h1 {
+        font-size: 26px;
+    }
+
+    .size-labels span {
+        font-size: 16px;
+        min-width: 60px;
+    }
+
+    .pizza-name {
+        font-size: 19px;
+    }
+
+    .price {
+        font-size: 18px;
+        min-width: 60px;
+    }
+
+    .pizza-description {
+        font-size: 14px;
+    } */
+}

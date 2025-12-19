@@ -1,0 +1,119 @@
+.page5 {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #fff;
+}
+
+.videosofpage5 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 2vw 2vw;
+    justify-content: space-between;
+}
+
+.frame,
+.frameend {
+    width: 40%;
+
+    display: flex;
+    gap: 1em;
+}
+
+.framecenter {
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.frame video,
+.frame img,
+.frameend video {
+    border-bottom-width: 2px;
+    border-color: var(--token-23bfebc9-8e5a-4142-91ca-fb94b67c5e2b, rgb(0, 0, 0));
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-style: solid;
+    border-top-width: 2px;
+    background-color: var(--token-456e293f-6fe3-4109-a0c7-d3c9b622cb9d, rgb(255, 255, 255));
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: -6px 6px 0px 0px var(--token-23bfebc9-8e5a-4142-91ca-fb94b67c5e2b, rgb(0, 0, 0));
+
+}
+
+
+
+.f1 {
+    flex: 1;
+
+}
+
+.f2 {
+
+    flex: 1;
+    display: flex;
+    font-size: 34px;
+    line-height: 1.2em;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #3d2101;
+    text-align: center;
+}
+
+.logof2 img {
+    width: 30px;
+    height: 30px;
+    box-shadow: -2px 2px #000;
+    border-radius: 4px;
+
+    border-bottom-width: 2px;
+    border-color: var(--token-23bfebc9-8e5a-4142-91ca-fb94b67c5e2b, #000);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-style: solid;
+    border-top-width: 2px;
+}
+
+.f1 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:1200px) {
+
+
+    .videosofpage5 {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .frame,
+    .frameend,
+    .framecenter {
+        width: 100%;
+
+    }
+}
+
+
+
+
+@media (max-width:768px) {
+
+    .logof2 img {
+        width: 24px;
+        height: 24px;
+    }
+    .f2{
+        font-size: 14px;flex-direction: row;gap: 1em;
+    }
+}
